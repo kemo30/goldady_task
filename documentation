@@ -1,0 +1,17 @@
+install 
+
+    composer install
+    add database to .enve file
+    run php artisan migrate to create database
+    run php artisan db:seed to create fake data for test 
+    email for test 
+        email k1@test.com
+        password 123123123
+    
+
+for test 
+
+    ther is postman collection in side project file for test api 
+    to run unit test use comand "php artisan test"
+
+this project use laravel 10 
